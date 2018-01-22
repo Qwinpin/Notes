@@ -1,0 +1,9 @@
+При сбой графическог драйвера и невозможности войти в систему:
+
+sudo apt-get purge nvidia*
+
+sudo apt-get purge CUDA*
+
+Проверить, что всё CUDA убрано:
+
+dpkg-query -l cuda*
